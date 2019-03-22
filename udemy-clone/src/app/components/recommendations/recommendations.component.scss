@@ -24,6 +24,14 @@
 }
 .btn {
   padding: 1.3rem;
+
+}
+.btn button {
+  cursor: pointer;
+  &:focus {
+    outline: none;
+
+  }
 }
 .btn button{
   background: #EC5252;

@@ -8,6 +8,8 @@ import { CourseSectionComponent } from './components/course-section/course-secti
 import { StudentsViewsComponent } from './components/students-views/students-views.component';
 import { RecommendationsComponent } from './components/recommendations/recommendations.component';
 import { CategoriesComponent } from './components/categories/categories.component';
+import { StudentsCommentsComponent } from './components/students-comments/students-comments.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { CategoriesComponent } from './components/categories/categories.componen
     CourseSectionComponent,
     StudentsViewsComponent,
     RecommendationsComponent,
-    CategoriesComponent
+    CategoriesComponent,
+    StudentsCommentsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule

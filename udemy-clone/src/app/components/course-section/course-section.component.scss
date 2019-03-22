@@ -1,0 +1,47 @@
+.container {
+  margin-top: 8rem;
+  display: flex;
+  height: 50rem;
+  padding: 7rem;
+  .box-1 {
+    background: #F7F8FA;
+    width: 40%;
+    height: 100%;
+    margin-right: 2rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .box-2 {
+    flex: 1;
+    height: 100%;
+  }
+}
+
+.add-text {
+  font-size: 1.7rem;
+  text-align: center;
+}
+h3 {
+  font-size: 2.4rem;
+}
+
+.nav .nav-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  font-size: 1.7rem;
+
+}
+.list-item {
+  cursor: pointer;
+}
+.list-item:first-child {
+  border-bottom: 2.5px solid darkblue;
+}
+.list-item:active {
+  border-bottom: 1px solid darkblue;
+}
